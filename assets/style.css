@@ -1,0 +1,26 @@
+body {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.navbar {
+    background-color: rgb(56, 3, 20);
+    color: white;
+}
+
+#placeholder {
+    color: white;
+
+}
+
+.title {
+    font-size: 60px;
+    color: rgb(56, 3, 20);
+}
+
+button {
+    background-color: rgb(56, 3, 20);
+}
+
+#results div {
+    display: inline-block;
+}
