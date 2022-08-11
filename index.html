@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wine & Dine</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto+Slab&family=Source+Serif+4:opsz,wght@8..60,800&family=Source+Serif+Pro:wght@600&family=Titillium+Web&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar" role="navigation" aria-label="main navigation">
+            <div class="navbar-brand">
+                <a class="navbar-item py-1 px-1 ml-3" href="./index.html">
+                    <img src="" alt="Wine&Dine" id="placeholder">
+                </a>
+            </div>
+        </nav>
+
+    </header>
+    <section class="section ">
+        <div class="container">
+            <div id="start-screen" class="card show">
+                <h1 class="title has-text-centered my-2">
+                    Welcome to Wine & Dine
+                </h1>
+
+                <div class="has-text-centered mx-5 is-size-3">One stop shop for meal recipes or cocktail drinks!</div>
+                <div class="has-text-centered mx-5 is-size-4">---Find meal suggestions by recipe or ingredient---
+                </div>
+                <div class="has-text-centered mx-5 is-size-4">---Find drinks by name or ingredients---</div>
+
+                <div class="columns">
+                    <div class="card-image column is-half has-text-centered ">
+                        <figure class="image is-2by1 mb-3">
+                            <img id="hero-image" src="assets/hamburger.jpg" alt="Placeholder image">
+                        </figure>
+                        <form id="search-meal-ingredient">
+                            <label class="label">Search by ingredient </label>
+                            <input class="is-size-4 mb-2" type="text" id="meal-ingredient" name="ingredient"
+                                style="height: 36px;" placeholder="Ex: chicken">
+                            <button id="search-ingredient" class="button is-warning ">Search
+                            </button>
+                        </form>
+                        <form id="search-recipe">
+                            <label class="label">Search by recipe </label>
+                            <input class="is-size-4 mb-2" type="text" id="recipe" name="ingredient"
+                                style="height: 36px;" placeholder="Ex: spaghetti">
+                            <button id="search-ingredient" class="button is-warning  ">Search
+                            </button>
+                        </form>
+                    </div>
+                    <div class="card-image column is-half has-text-centered">
+                        <figure class="image is-2by1 mb-3">
+                            <img id="hero-image" src="assets/martini.jpg" alt="Placeholder image">
+                        </figure>
+                        <form id="search-drink-ingredient">
+                            <label class="label">Search by ingredient</label>
+                            <input class="is-size-4" type="text" id="drink-ingredient" name="ingredient"
+                                style="height: 36px;" placeholder="Ex: vodka">
+                            <button id="search-meal" class="button is-warning">Search
+                            </button>
+                        </form>
+                        <form id="search-cocktail">
+                            <label class="label">Search by cocktail</label>
+                            <input class="is-size-4" type="text" id="cocktail" name="ingredient" style="height: 36px;"
+                                placeholder="Ex: Rum Runner">
+                            <button id="search-meal" class="button is-warning">Search
+                            </button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Results Container -->
+            <div id="results" class="columns">
+
+            </div>
+            <script src="./assets/app.js"></script>
+        </div>
+    </section>
+
+</body>
+
+</html>
