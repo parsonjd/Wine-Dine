@@ -1,5 +1,0 @@
-.card-image:last-child img {
-    border-bottom-left-radius: .25rem;
-    border-bottom-right-radius: .25rem;
-    object-fit: contain;
-}
