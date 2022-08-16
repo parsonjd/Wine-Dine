@@ -1,5 +1,5 @@
-let searchMeal = document.querySelector('#search-meal');
-let mealInput = document.querySelector('#meal-input');
+let searchMeal = document.querySelector('#search-meal-ingredient');
+let mealInput = document.querySelector('#meal-ingredient');
 let results = document.querySelector('#results');
 let empty = document.querySelector('#empty');
 
@@ -40,9 +40,7 @@ async function getMeal(mealSearch) {
             let cardHeadDiv = document.createElement('div');
             cardHeadDiv.setAttribute('class', 'card-header');
             let h1 = document.createElement('h1');
-            h1.setAttribute('class', 'card-header-title');
-            h1.setAttribute('class', 'is-size-5');
-            h1.setAttribute('class', 'is-centered');
+            h1.setAttribute('class', 'card-header-title is-size-5 is-centered');
             h1.innerText = recipeName;
             let divImage = document.createElement('div');
             divImage.setAttribute('class', 'card-image');
