@@ -3,3 +3,19 @@
     border-bottom-right-radius: .25rem;
     object-fit: contain;
 }
+
+.navbar {
+    background-color: rgb(56, 3, 20);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+#no-results {
+    display: flex;
+    justify-content: center;
+}
+
+#empty {
+    font-size: 2rem;
+}
