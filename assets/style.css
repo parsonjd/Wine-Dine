@@ -2,15 +2,22 @@ body {
     font-family: 'Titillium Web', sans-serif;
 }
 
+
+
 .navbar {
     background-color: rgb(56, 3, 20);
     color: white;
+    display: flex;
+    justify-content: center;
+
 }
 
-#placeholder {
+.navbar a {
+    font-size: 2rem;
     color: white;
-
 }
+
+
 
 .title {
     font-size: 60px;

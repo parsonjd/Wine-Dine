@@ -15,15 +15,13 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar" role="navigation" aria-label="main navigation">
-            <div class="navbar-brand">
-                <a class="navbar-item py-1 px-1 ml-3" href="./index.html">
-                    <img src="" alt="Wine&Dine" id="placeholder">
-                </a>
-            </div>
-        </nav>
-
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+            <a class="navbar-item py-1 px-1 ml-3" href="./index.html">
+                <img src="" alt="" id="placeholder" /> Home
+            </a>
+        </div>
+    </nav>
     </header>
     <section class="section">
         <div class="container">
@@ -32,26 +30,35 @@
                     What would you like to eat?
                 </h1>
 
-        <div class="columns is-centered is-vcentered is-mobile">
-            <div class="card-image column is-half has-text-centered ">
-                <figure class="image is-2by1 mb-3">
-                    <img id="hero-image" src="assets/plate.jpg" alt="Plate">
-                </figure>
-                <div class="columns"></div>
-                <div class="column is-vcentered">
-                <form id="search-meal-ingredient">
-                    <label class="label">🍽 Search by ingredient or recipe 🍽 </label>
-                    <input class="is-size-4 mb-2" type="text" id="meal-ingredient" name="ingredient"
-                        style="height: 38px;" placeholder="Ex: chicken">
-                    <button id="search-ingredient" class="button is-warning ">Search
-                    </button>
-                </form>
+                <div class="columns is-centered is-vcentered is-mobile">
+                    <div class="card-image column is-half has-text-centered ">
+                        <figure class="image is-2by1 mb-3">
+                            <img id="hero-image" src="assets/plate.jpg" alt="Plate">
+                        </figure>
+                        <div class="columns"></div>
+                        <div class="column is-vcentered">
+                            <form id="search-meal-ingredient">
+                                <label class="label">🍽 Search by ingredient or recipe 🍽 </label>
+                                <input class="is-size-4 mb-2" type="text" id="meal-ingredient" name="ingredient"
+                                    style="height: 38px;" placeholder="Ex: chicken">
+                                <button id="search-ingredient" class="button is-warning ">Search
+                                </button>
+                            </form>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div id="results" class="columns"></div>
-        <div id="empty" class="columns"></div>
-        <script src="./assets/food-app.js"></script>
 
-    </body>
-    </html>
+
+    </section>
+    <div id="results" class="columns is-flex-wrap-wrap"></div>
+    <div id="no-results" class="columns">
+        <strong>
+            <p id="empty"></p>
+        </strong>
+    </div>
+
+    <script src="./assets/food-app.js"></script>
+
+</body>
+
+</html>

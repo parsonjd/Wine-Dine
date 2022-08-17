@@ -1,70 +1,58 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Wine or Dine</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="./assets/drinkStyles.css" />
-  </head>
-  <body>
-    <header>
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item py-1 px-1 ml-3" href="./index.html">
-            <img src="" alt="Wine&Dine" id="placeholder" />
-          </a>
-        </div>
-      </nav>
-    </header>
 
-    <div class="has-text-centered mx-5 is-size-3">
-      What do you want to drink?
-      <div class="drink-icon">🍺</div>
-    </div>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Wine or Dine</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" href="./assets/drinkStyles.css" />
+</head>
 
-    <!-- the card  -->
-    <div class="box has-text-centered">
-      <div class="columns is-centered">
-        <!-- Search by ingredient -->
-        <form id="search-drink-ingredient " class="column is-half">
-          <label class="label ingredients">Search by ingredient</label>
-          <input
-            class="is-size-4"
-            type="text"
-            id="drink-ingredient"
-            name="ingredient"
-            style="height: 36px"
-            placeholder="Ex: vodka"
-          />
-          <!-- by ingr button -->
-          <button id="search-ingreient" class="mr-2 button is-warning">
-            Search
-          </button>
-        </form>
-        <!-- search by name -->
-        <form id="search-cocktail" class="column is-half">
-          <label class="label cocktails">Search by cocktail</label>
-          <input
-            class="is-size-4"
-            type="text"
-            id="cocktail"
-            name="ingredient"
-            style="height: 36px"
-            placeholder="Ex: Rum Runner"
-          />
-          <!-- by cocktail button -->
-          <button id="search-cocktail" class="button is-warning">Search</button>
-        </form>
+<body>
+  <header>
+    <nav class="navbar" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a class="navbar-item py-1 px-1 ml-3" href="./index.html">
+          <img src="" alt="" id="placeholder" /> Home
+        </a>
       </div>
-    </div>
+    </nav>
+  </header>
 
-    <!-- jQuery -->
-    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
-    <!-- script -->
-    <script src="./assets/drinks.js"></script>
-  </body>
+  <div class="has-text-centered mx-5 is-size-3">
+    What do you want to drink?
+    <div class="drink-icon">🍺</div>
+  </div>
+
+  <!-- the card  -->
+  <div class="box has-text-centered">
+    <div class="columns is-centered">
+      <!-- Search by ingredient -->
+      <form id="search-drink-ingredient " class="column is-half">
+        <label class="label ingredients">Search by ingredient</label>
+        <input class="is-size-4" type="text" id="drink-ingredient" name="ingredient" style="height: 36px"
+          placeholder="Ex: vodka" />
+        <!-- by ingr button -->
+        <button id="search-ingreient" class="mr-2 button is-warning">
+          Search
+        </button>
+      </form>
+      <!-- search by name -->
+      <form id="search-cocktail" class="column is-half">
+        <label class="label cocktails">Search by cocktail</label>
+        <input class="is-size-4" type="text" id="cocktail" name="ingredient" style="height: 36px"
+          placeholder="Ex: Rum Runner" />
+        <!-- by cocktail button -->
+        <button id="search-cocktail" class="button is-warning">Search</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+  <!-- script -->
+  <script src="./assets/drinks.js"></script>
+</body>
+
 </html>
