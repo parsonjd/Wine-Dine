@@ -5,10 +5,11 @@ body {
 
 
 .navbar {
-    background-color: rgb(56, 3, 20);
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -20,14 +21,28 @@ body {
 
 
 .title {
-    font-size: 60px;
-    color: rgb(56, 3, 20);
+    font-size: 40px;
+    color: black;
+    
 }
 
 button {
-    background-color: rgb(56, 3, 20);
+    background-color: black;
 }
 
 #results div {
     display: inline-block;
+}
+
+.has-text-centered {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p {
+    font-family: 'Merienda One', cursive;
+}
+
+.button.is-warning {
+    background-color: black;
+    color: white;
 }

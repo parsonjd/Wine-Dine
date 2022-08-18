@@ -5,10 +5,11 @@
 }
 
 .navbar {
-    background-color: rgb(56, 3, 20);
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #no-results {
@@ -18,4 +19,20 @@
 
 #empty {
     font-size: 2rem;
+}
+
+.title.has-text-centered {
+    font-family: 'Merienda One', cursive;
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+#search-ingredient {
+    background-color: black;
+    color: white;
+}
+
+.label {
+    white-space: nowrap;
 }
