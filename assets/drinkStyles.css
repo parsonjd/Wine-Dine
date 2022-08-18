@@ -20,6 +20,7 @@
 p {
   font-family: 'Merienda One', cursive;
     color: black;
+    font-weight: bold;
 }
 
 #search-cocktail.button {

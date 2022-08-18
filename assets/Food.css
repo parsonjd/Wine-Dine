@@ -24,6 +24,8 @@
 .title.has-text-centered {
     font-family: 'Merienda One', cursive;
     color: black;
+    font-size: 30px;
+    font-weight: bold;
 }
 
 #search-ingredient {
