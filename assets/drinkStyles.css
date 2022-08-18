@@ -1,8 +1,9 @@
 .navbar {
-  background-color: rgb(56, 3, 20);
+  background-color: black;
   color: white;
   display: flex;
   justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
 
@@ -14,4 +15,15 @@
 
 .drink-icon {
   font-size: 7rem;
+}
+
+p {
+  font-family: 'Merienda One', cursive;
+    color: black;
+    font-weight: bold;
+}
+
+#search-cocktail.button {
+  background-color: black;
+  color: white;
 }
