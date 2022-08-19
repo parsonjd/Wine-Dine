@@ -17,6 +17,10 @@
     justify-content: center;
 }
 
+#empty {
+    font-size: 2rem;
+}
+
 .title.has-text-centered {
     font-family: 'Merienda One', cursive;
     color: black;
