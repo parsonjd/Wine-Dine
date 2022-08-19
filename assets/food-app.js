@@ -115,6 +115,7 @@ function displayMeal(data) {
 
         results.append(div);
 
+
         //Clear user input
         mealInput.value = '';
     }
