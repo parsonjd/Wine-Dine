@@ -10,11 +10,10 @@ The application allows users the opportunity to begin on a homepage with food an
 and with instructions for the user to click "Let's Eat" and "Let's Drink". Once the user clicks one of these options he or she is then presented with a new web page with a form submission box to search for the food item or drink item of choice. The website allows the user to search via ingredient or recipe. The user is then presented with meal or drink (adult) items that are relatable or contains the suggested menu item, i.e. chicken. Once the user selects the food option or drink option within the choices of relatable choices they are then presented with ingredients or the recipe of the selected option.
 
 Screen Shot of Wine & Dine Application
-
-![](assets/WineDine%20SS5.jpeg)
+![](assets/WineOrDineDemo.gif)
 ![](assets/WineDine%20SS4.jpeg)
-![](assets/WineDine%20SS1.jpeg)
-![](assets/WineorDineDemo.gif)
+![](assets/FoodDemo.gif)
+![](assets/DrinksDemo.gif)
 
 Link to Wine & Dine Application
 
