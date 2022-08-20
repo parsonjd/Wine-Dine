@@ -40,3 +40,10 @@ p {
   background-color: black;
   color: white;
 }
+
+.food-icon {
+  font-size: 9rem;
+}
+.home-food-icon {
+  font-size: 13rem;
+}
