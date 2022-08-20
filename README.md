@@ -13,13 +13,12 @@ Screen Shot of Wine & Dine Application
 
 ![](assets/WineDine%20SS5.jpeg)
 ![](assets/WineDine%20SS4.jpeg)
-![](assets/WineDine%20SS3.jpeg)
-![](assets/WineDine%20SS2.jpeg)
 ![](assets/WineDine%20SS1.jpeg)
+![](assets/WineorDineDemo.gif)
 
 Link to Wine & Dine Application
 
-## Credits 
+## Credits
 
 Collaborators: Jeremy Parson, Anquavious Grant, Horatious Harris, Teresa Kariuki, Vaidic Trivedi
 API: https://bulma.io/, https://spoonacular.com/, https://fonts.google.com/, https://www.thecocktaildb.com/
@@ -28,7 +27,7 @@ API: https://bulma.io/, https://spoonacular.com/, https://fonts.google.com/, htt
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Copyright © 2022 
+Copyright © 2022
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
