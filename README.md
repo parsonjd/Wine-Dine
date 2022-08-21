@@ -16,6 +16,7 @@ Screen Shot of Wine & Dine Application
 ![](assets/DrinksDemo.gif)
 
 Link to Wine & Dine Application
+https://parsonjd.github.io/Wine-Dine/
 
 ## Credits
 
