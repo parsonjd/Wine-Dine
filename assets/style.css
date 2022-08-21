@@ -1,48 +1,49 @@
 body {
-    font-family: 'Titillium Web', sans-serif;
+  font-family: "Titillium Web", sans-serif;
 }
 
-
-
 .navbar {
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .navbar a {
-    font-size: 2rem;
-    color: white;
+  font-size: 2rem;
+  color: white;
 }
 
-
-
 .title {
-    font-size: 40px;
-    color: black;
-    
+  font-size: 40px;
+  color: black;
 }
 
 button {
-    background-color: black;
+  background-color: black;
 }
 
 #results div {
-    display: inline-block;
+  display: inline-block;
 }
 
 .has-text-centered {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 p {
-    font-family: 'Merienda One', cursive;
+  font-family: "Merienda One", cursive;
 }
 
 .button.is-warning {
-    background-color: black;
-    color: white;
+  background-color: black;
+  color: white;
+}
+
+.food-icon {
+  font-size: 9rem;
+}
+.home-food-icon {
+  font-size: 13rem;
 }
