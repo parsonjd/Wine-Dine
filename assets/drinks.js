@@ -12,18 +12,18 @@ searchDrinkIng.addEventListener("submit", handleDrinkIng);
 function handleDrinkIng(e) {
   e.preventDefault();
   let drinkIngSearch = drinkIng.value.trim();
-<<<<<<< HEAD
+
 
   //Save to local storage and clear out results and empty divs as well as user input
   localStorage.setItem("previous-drink-search", (drinkIngSearch));
   results.innerText = '';
   empty.innerText = '';
   drinkIng.value = '';
-=======
+
   results.innerText = "";
   empty.innerText = "";
   drinkIng.value = "";
->>>>>>> 8e89b5fb08832a2c54e5f7aa65dcde6044df011c
+
 
   if (drinkIngSearch) {
     getDrinkByIng(drinkIngSearch);
