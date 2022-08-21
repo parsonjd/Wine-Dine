@@ -13,6 +13,9 @@ searchDrinkIng.addEventListener('submit', handleDrinkIng);
 function handleDrinkIng(e) {
   e.preventDefault();
   let drinkIngSearch = drinkIng.value.trim();
+
+  //Save to local storage and clear out results and empty divs as well as user input
+  localStorage.setItem("previous-drink-search", (drinkIngSearch));
   results.innerText = '';
   empty.innerText = '';
   drinkIng.value = '';
@@ -20,6 +23,11 @@ function handleDrinkIng(e) {
   if (drinkIngSearch) {
     getDrinkByIng(drinkIngSearch);
   }
+}
+//Run function to pull from local storage
+function init() {
+  let recentDrinkSearch = localStorage.getItem('previous-drink-search');
+  getDrinkByIng(recentDrinkSearch);
 }
 
 //Handle form submission for cocktail
@@ -176,3 +184,5 @@ async function getDrinkByCoc(drink) {
   }
 
 }
+//Run function upon refresh or reload
+init();
