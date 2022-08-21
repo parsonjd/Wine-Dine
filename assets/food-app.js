@@ -13,11 +13,19 @@ function handleMeal(e) {
     e.preventDefault();
     let mealSearch = mealInput.value.trim();
     getMeal(mealSearch);
+
+    //Save to local storage and clear out results and empty divs    
+    localStorage.setItem("previous-food-search", (mealSearch));
     results.innerText = '';
     empty.innerText = '';
 
 }
 
+//Load from local storage upon load or refresh
+function init() {
+    let recentFoodSearch = localStorage.getItem('previous-food-search');
+    getMeal(recentFoodSearch);
+}
 
 //Pass user input to the Spoonacular API 
 async function getMeal(mealSearch) {
@@ -120,3 +128,6 @@ function displayMeal(data) {
         mealInput.value = '';
     }
 }
+
+//Run function upon reload or refresh
+init();
